@@ -1,0 +1,63 @@
+.point {
+	color: red;
+}
+
+header {
+	height:150px;
+	width:100%;
+	background-color: #7609cf;
+	/*position:fixed;
+	top:-5px;*/
+	
+	li{
+	display: inline-block;
+	width:100;
+	background-color:#dddddd;
+	text-align:center;
+	margin:0px 8px 0px 8px;
+	padding:6px 20px 4px 20px;
+	border-bottom:3px solid #cccccc;
+	
+	}
+	
+}
+
+#wrapper {
+	height:1000px;
+    background-color: rgba(5,2,7,2)
+}
+
+#main {                   /*クラスの頭は.、idは#*/
+	float:left;
+	width:70%;
+	height:1000px;
+    background-color: #ff8000;
+}
+
+aside {                      /*もしくは #sideber */
+	float:right;
+	width:30%;
+	height:1000px;
+    background-color: #09a90a;
+	
+}
+
+clear{
+	clear:both;
+}
+
+footer {
+	height:40px;
+    background-color: #666666;
+    li {display: inline-block;
+}}
+
+a:link{
+	color:#0000ff;
+}
+a:hover{
+	color:#ff0000;
+}
+a:visited{
+	color:#999999;
+}
